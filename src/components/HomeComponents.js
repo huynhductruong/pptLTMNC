@@ -5,9 +5,10 @@ import axios from 'axios'
 const HomeComponents = () => {
     const [file, setFile] = useState()
     const [image, setImage] = useState()
-    const UploadImage = ()=> {
+    const [imageResponse, setImageRe] = useState()
+    const UploadImage = async ()=> {
+        axios.post('http://127.0.0.1:8000/result',{})
 
-        axios.post('http://127.0.0.1:8000/upload',file)
     }
 
     return (
