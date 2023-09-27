@@ -1,20 +1,24 @@
 import React, { useCallback } from 'react'
 import { useDropzone } from 'react-dropzone'
 import { FiUploadCloud } from 'react-icons/fi';
-import axios from 'axios'
+
 function Uploder({setImage,setFile}) {
     const onDrop = useCallback(async (acceptedFiles)=>
     {
-      
+      console.log(acceptedFiles);
       const file = new FormData()
-      file.append("file",acceptedFiles[0])
-      axios.post('http://127.0.0.1:8000/upload',file)
+      acceptedFiles.map(data=> file.append("file",data))
       setFile(file)
-      let url = URL.createObjectURL(acceptedFiles[0])
-      setImage(url)
+      let arrURL = []
+      acceptedFiles.map(img =>{
+        let url = URL.createObjectURL(img)
+        arrURL.push(url)
+      } )
+      
+      setImage(arrURL)
     })
     const {getRootProps, getInputProps,isDragActive,isDragReject} = useDropzone({
-        multiple : false,
+        multiple : true,
         onDrop
     });
 

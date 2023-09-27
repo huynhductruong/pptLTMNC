@@ -2072,7 +2072,7 @@ body.lang-el {
 @font-face {
     font-family: rawline;
     font-display: auto;
-    
+
     font-weight: 400;
     font-style: normal
 }
@@ -2080,7 +2080,7 @@ body.lang-el {
 @font-face {
     font-family: rawline;
     font-display: auto;
-    
+
     font-weight: 500;
     font-style: normal
 }
@@ -2088,7 +2088,7 @@ body.lang-el {
 @font-face {
     font-family: rawline;
     font-display: auto;
-   
+
     font-weight: 600;
     font-style: normal
 }
@@ -2096,7 +2096,7 @@ body.lang-el {
 @font-face {
     font-family: rawline;
     font-display: auto;
-   
+
     font-weight: 700;
     font-style: normal
 }
@@ -2104,7 +2104,7 @@ body.lang-el {
 @font-face {
     font-family: rawline-cirylic;
     font-display: auto;
- 
+
     font-weight: 400;
     font-style: normal
 }
@@ -10075,16 +10075,14 @@ select[type=number]::-webkit-inner-spin-button:hover {
 input[type=number].input--sm::-webkit-inner-spin-button,
 input[type=number].input--sm::-webkit-outer-spin-button,
 select[type=number].input--sm::-webkit-inner-spin-button,
-select[type=number].input--sm::-webkit-outer-spin-button {
-}
+select[type=number].input--sm::-webkit-outer-spin-button {}
 
 .input[type=number].input--xs::-webkit-inner-spin-button,
 .input[type=number].input--xs::-webkit-outer-spin-button,
 input[type=number].input--xs::-webkit-inner-spin-button,
 input[type=number].input--xs::-webkit-outer-spin-button,
 select[type=number].input--xs::-webkit-inner-spin-button,
-select[type=number].input--xs::-webkit-outer-spin-button {
-}
+select[type=number].input--xs::-webkit-outer-spin-button {}
 
 .input[type=color],
 input[type=color],
@@ -10291,8 +10289,7 @@ select[type=range]::-webkit-slider-thumb {
     box-shadow: none
 }
 
-.checkbox [type=checkbox]:disabled:checked+label:after {
-}
+.checkbox [type=checkbox]:disabled:checked+label:after {}
 
 .checkbox [type=checkbox]:disabled+label {
     opacity: .4
@@ -10425,8 +10422,7 @@ select[type=range]::-webkit-slider-thumb {
     background-color: #f6f6f8
 }
 
-.radio [type=radio]:disabled:checked+label:after {
-}
+.radio [type=radio]:disabled:checked+label:after {}
 
 .radio [type=radio]:not(:checked):focus+label:before {
     border: 1px solid #626870
@@ -10912,31 +10908,22 @@ label a:hover {
     padding-left: 32px
 }
 
-.input--user:before {
-}
+.input--user:before {}
 
-.input--search:before {
-}
+.input--search:before {}
 
-.input--key:before {
-}
+.input--key:before {}
 
 .input--lock:before,
-.input--pwd:before {
-}
+.input--pwd:before {}
 
-.input--mobile:before {
-}
+.input--mobile:before {}
 
-.input--email:before {
-}
+.input--email:before {}
 
-.input--world:before {
-}
+.input--world:before {}
 
-.input--url:before {
-    
-}
+.input--url:before {}
 
 .input--lg {
     font-size: 14px;
@@ -11181,7 +11168,7 @@ select,
 select.input {
     border-radius: 4px;
     -webkit-appearance: none;
-    
+
     background-repeat: no-repeat;
     background-position: right 10px center;
     padding: 2px 32px 6px 12px;
@@ -11196,15 +11183,15 @@ select.input.error {
 
 select.input--xs {
     padding: 0 22px 2px 12px;
-    
+
     background-position: right 6px center
 }
 
 select.simple {
     border: 0;
     -webkit-appearance: none;
-    
-    
+
+
     background-repeat: no-repeat;
     background-position: right 10px center;
     padding: 2px 28px 2px 2px;
@@ -11291,11 +11278,9 @@ select.simple {
     content: ""
 }
 
-.listcheck__item--ok:before {
-}
+.listcheck__item--ok:before {}
 
-.listcheck__item--fail:before {
-}
+.listcheck__item--fail:before {}
 
 .listcheck__item .title3 {
     margin-bottom: 0
@@ -11314,19 +11299,13 @@ select.simple {
     color: #4acd86
 }
 
-.listcheck--color .listcheck__item--ok:before {
-    
-    
-}
+.listcheck--color .listcheck__item--ok:before {}
 
 .listcheck--color .listcheck__item--fail {
     color: #7c7c80
 }
 
-.listcheck--color .listcheck__item--fail:before {
-    
-    
-}
+.listcheck--color .listcheck__item--fail:before {}
 
 .listcheck--content .listcheck__item {
     margin-bottom: 32px
@@ -11334,14 +11313,14 @@ select.simple {
 
 .listcheck--content .listcheck__item--ok:before {
     top: 12px;
-    
-    
+
+
 }
 
 .listcheck--content .listcheck__item--fail:before {
     top: 12px;
-    
-    
+
+
 }
 
 .listcheck--separate .listcheck__item {
@@ -12901,8 +12880,7 @@ button.mat-icon-button:disabled {
     color: #fff
 }
 
-.dialog__header--dark .dialog__close {
-}
+.dialog__header--dark .dialog__close {}
 
 .dialog__header--dark .dialog__close:hover {
     background-color: #aeaeb2
@@ -13015,7 +12993,7 @@ button.mat-icon-button:disabled {
     cursor: pointer;
     top: 16px;
     right: 16px;
-    
+
     width: 32px;
     height: 32px;
     border-radius: 100%;
@@ -13307,7 +13285,7 @@ button.mat-icon-button:disabled {
 
 .modal-side {
     min-width: 323px;
-    
+
     background-size: cover;
     color: #fff;
     padding: 0
@@ -14546,7 +14524,7 @@ td .icon svg {
     content: "";
     width: 12px;
     height: 12px;
-    
+
     margin-right: 8px
 }
 
@@ -14678,7 +14656,7 @@ td .icon svg {
     min-width: inherit;
     border-radius: 100%;
     background-color: #e5e5e9;
-    
+
     background-repeat: no-repeat;
     background-position: 50%;
     text-indent: 9999px;
@@ -14711,8 +14689,7 @@ td .icon svg {
     background-size: 16px 16px
 }
 
-.toast-accept:hover button.toast-close-button {
-}
+.toast-accept:hover button.toast-close-button {}
 
 #ck_cnt {
     font-size: 11px
@@ -15019,34 +14996,22 @@ td .icon svg {
     background-color: rgba(0, 0, 0, 0)
 }
 
-.social__item--twitter {
-   
-}
+.social__item--twitter {}
 
-.social__item--facebook {
-  
-}
+.social__item--facebook {}
 
-.social__item--android {
-    
-}
+.social__item--android {}
 
 .social__item--apple {
-   
+
     margin-left: 16px
 }
 
-.social__item--linkedin {
-    
-}
+.social__item--linkedin {}
 
-.social__item--tiktok {
-    
-}
+.social__item--tiktok {}
 
-.social__item--instagram {
-    
-}
+.social__item--instagram {}
 
 .social__item:hover {
     opacity: 1
@@ -15252,7 +15217,7 @@ td .icon svg {
     content: "";
     width: 8px;
     height: 12px;
-    
+
     position: absolute;
     right: 8px;
     top: 50%;
@@ -16052,14 +16017,9 @@ td .icon svg {
     height: 12px
 }
 
-.pricing__table .feature__yes {
-   
-}
+.pricing__table .feature__yes {}
 
-.pricing__table .feature__no {
-    
-    
-}
+.pricing__table .feature__no {}
 
 .pricing__table .listcheck__item {
     font-size: 13px;
@@ -16076,7 +16036,7 @@ td .icon svg {
     width: 10px;
     height: 6px;
     margin-left: 8px;
-   
+
 }
 
 .pricing__table .list__dropdown strong {
@@ -16541,7 +16501,7 @@ td .icon svg {
 }
 
 .box--black {
-   
+
     background-size: cover;
     padding: 24px;
     color: #fff;
@@ -16554,7 +16514,7 @@ td .icon svg {
 }
 
 .box--grey {
-    
+
     background-size: cover;
     padding: 24px;
     border-radius: 8px
@@ -16708,7 +16668,7 @@ td .icon svg {
 }
 
 .box--bg2 .bg-disp {
-    
+
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: 0 100%
@@ -18465,7 +18425,7 @@ td .icon svg {
     height: 36px;
     border-radius: 100%;
     position: absolute;
-   
+
     background-size: 60%;
     display: block
 }
@@ -18717,7 +18677,7 @@ td .icon svg {
     transition: all .4s ease-in-out;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 8px;
- 
+
     -webkit-box-shadow: 0 -8px 30px 0 rgba(0, 0, 0, .1);
     box-shadow: 0 -8px 30px 0 rgba(0, 0, 0, .1);
     cursor: pointer;
@@ -18758,7 +18718,7 @@ td .icon svg {
     left: 24px;
     width: 48px;
     height: 48px;
-    
+
 }
 
 @media (max-width:840px) {
@@ -18787,17 +18747,11 @@ td .icon svg {
     border: 1px solid orange
 }
 
-.limit-alert--files:before {
-    
-}
+.limit-alert--files:before {}
 
-.limit-alert--size:before {
-    
-}
+.limit-alert--size:before {}
 
-.limit-alert--pages:before {
-    
-}
+.limit-alert--pages:before {}
 
 body.rtl .limit-alert {
     left: 467px;
@@ -19265,7 +19219,7 @@ body.rtl .limit-alert:before {
 
 .editor__option__selector:after {
     content: "";
-    
+
     width: 4px;
     height: 4px;
     margin-left: 6px
@@ -19700,7 +19654,7 @@ body.clean .main {
     width: 10px;
     height: 6px;
     margin-left: 8px;
-    
+
 }
 
 .auth__info .auth__box .toggle__content {
@@ -19749,9 +19703,7 @@ body.clean .main {
     color: #fff
 }
 
-.user-premium .auth__info .toggle:after {
-    
-}
+.user-premium .auth__info .toggle:after {}
 
 .home-title {
     position: relative;
@@ -20462,12 +20414,9 @@ body.process-run .sidetools {
     height: 24px
 }
 
-.social-auth .social-auth--big-buttons .auth-icon.google {
-    
-}
+.social-auth .social-auth--big-buttons .auth-icon.google {}
 
-.social-auth .social-auth--big-buttons .auth-icon.facebook {
-}
+.social-auth .social-auth--big-buttons .auth-icon.facebook {}
 
 .social-auth .auth-link *+.auth-link__text {
     margin-left: 9px;
@@ -20501,10 +20450,7 @@ body.process-run .sidetools {
     background-position: 50%
 }
 
-.social-auth .auth-icon.google {
-    
-    
-}
+.social-auth .auth-icon.google {}
 
 .social-auth .auth-icon.twitter {
     background-position: 0 -68px
@@ -20518,9 +20464,7 @@ body.process-run .sidetools {
     background-position: 0 -136px
 }
 
-.social-auth .auth-icon.facebook {
-    
-}
+.social-auth .auth-icon.facebook {}
 
 .social-auth .auth-icon.linkedin {
     background-position: 0 -204px
@@ -20743,38 +20687,26 @@ body.lang-ru .auth-link__text {
 }
 
 .file__canvas>div.password,
-.file__canvas canvas.password {
-    
-}
+.file__canvas canvas.password {}
 
 .file__canvas>div.pdf,
-.file__canvas canvas.pdf {
-    
-}
+.file__canvas canvas.pdf {}
 
 .file__canvas>div.word,
-.file__canvas canvas.word {
-    
-}
+.file__canvas canvas.word {}
 
 .file__canvas>div.doc,
-.file__canvas canvas.doc {
-   
-}
+.file__canvas canvas.doc {}
 
 .file__canvas>div.docx,
-.file__canvas canvas.docx {
-    
-}
+.file__canvas canvas.docx {}
 
 .file__canvas>div.odg,
 .file__canvas>div.odp,
 .file__canvas>div.odt,
 .file__canvas canvas.odg,
 .file__canvas canvas.odp,
-.file__canvas canvas.odt {
-    
-}
+.file__canvas canvas.odt {}
 
 
 
@@ -24402,14 +24334,14 @@ body.user .alert--warning {
     color: #ff7202;
     background-color: #fce7c4;
     border-color: #ffdb84;
-   
+
 }
 
 body.user .alert--error {
     color: #e5322d;
     background-color: #f8c3b7;
     border-color: #e9a8a7;
-   
+
     -webkit-box-shadow: 0 1px 15px 1px rgba(69, 65, 78, .08);
     box-shadow: 0 1px 15px 1px rgba(69, 65, 78, .08);
     border-radius: 4px
@@ -24926,7 +24858,7 @@ body.user .pageinfo {
 .wait {
     font-size: 16px;
     font-weight: 500;
-   
+
     background-size: 120px
 }
 
@@ -24939,7 +24871,7 @@ body.user .pageinfo {
     align-items: center;
     -ms-flex-pack: center;
     justify-content: center;
-    
+
     background-size: 42px;
     width: 42px;
     height: 42px;
@@ -25013,12 +24945,12 @@ p .icon {
 }
 
 p .icon--order {
-    
+
     background-size: 16px 16px
 }
 
 p .icon--orderinverse {
-   
+
     background-size: 16px 16px
 }
 
@@ -25026,7 +24958,7 @@ i.fa.fa-smile-o {
     display: inline-block;
     width: 12px;
     height: 12px;
-    
+
     margin-left: 4px;
     margin-right: 4px
 }
@@ -25057,7 +24989,7 @@ i.fa.fa-smile-o {
 .icon--premium {
     width: 15px;
     height: 15px;
-    
+
     background-position: right 5px center;
     border-radius: 100%
 }
@@ -25414,7 +25346,7 @@ i.fa.fa-smile-o {
     -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, .15);
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, .15);
     top: 12px;
-    
+
     background-size: 8px 6px
 }
 
@@ -26464,13 +26396,11 @@ i.fa.fa-smile-o {
     width: 32px;
     height: 32px;
     border-radius: 8px;
-    
+
     cursor: pointer
 }
 
-.sign__draggable__actions__edit:hover {
-    
-}
+.sign__draggable__actions__edit:hover {}
 
 .sign__draggable:hover .draggable__text {
     color: #244462
@@ -27028,10 +26958,11 @@ i.fa.fa-smile-o {
 .gizmo--right {
     right: -18px
 }
-#pickfiles:hover
-{
+
+#pickfiles:hover {
     background-color: #070707;
 }
+
 .linked {
     width: 18px;
     height: 18px;
@@ -30996,4 +30927,18 @@ html.sb-animation {
 .tool-imagepdf .page__element,
 .tool-imagepdf .range__element {
     cursor: move
+}
+
+.img-show {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.img-show-i {
+    width: 170px;
+    height: 300px;
+    margin: 10px 10px 30px 10px;
 }
