@@ -6,13 +6,31 @@ import axios from 'axios'
 const HomeComponents = () => {
     const [file, setFile] = useState()
     const navigate = useNavigate()
-    
+    const [isHidden,setIsHidden] = useState(false)
     const [image, setImage] = useState([])
     const [imageResponse, setImageRe] = useState()
+    useEffect(()=>
+    {
+        const testAPI = async () =>{
+            let data = await axios.get('http://trainproject.id.vn:3001/users')
+            setImageRe(data.data)
+        }
+        const Auth  = () =>
+        {
+            let istoken = localStorage.getItem('token')
+            istoken?setIsHidden(true) :setIsHidden(false)
+        }
+        Auth()
+        testAPI()
+    })
+
     const UploadImage = async () => {
         console.log(file);
         axios.post('http://127.0.0.1:8000/upload', file)
-        navigate('/result')
+        setTimeout(()=>
+        {
+            navigate('/result')
+        },5000)
     }
     
     return (
@@ -130,13 +148,16 @@ const HomeComponents = () => {
                     </div>
                     <div className="top-menu">
                         <ul className="nav">
-                            <li className="nav__item nav__item--gray">
+                            <li className={isHidden?'hidden':"nav__item  nav__item--gray"}>
                                 <a href="/login"><span>Log in</span></a>
                             </li>
-                            <li className="nav__item nav__item--red">
+                            <li className={isHidden?'hidden':"nav__item nav__item--red"}>
                                 <a href="/register">
                                     <i className="ico ico--user"></i>
                                     <span>Sign up</span></a>
+                            </li>
+                            <li className={isHidden?"nav__item profile-u nav__item--gray":'hidden'}>
+                                <a href="/profile"><span>Name User</span></a>
                             </li>
                             <li className="nav__item nav__item--sub">
                                 <i className="ico ico--hamburger"></i>

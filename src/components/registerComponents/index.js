@@ -15,7 +15,7 @@ const RegisterComponents = () => {
             password:password
 
         })
-        
+        localStorage.setItem('token',token)
         if(token.data) navigate('/')
     }
     return (

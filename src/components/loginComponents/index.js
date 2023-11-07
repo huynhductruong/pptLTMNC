@@ -12,7 +12,7 @@ const LoginComponents = () => {
             email:email,
             password:password
         })
-        
+        localStorage.setItem('token',token)
         if(token.data) navigate('/')
     }
     return (
